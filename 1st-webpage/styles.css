@@ -1,0 +1,308 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+#hero {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    width: 900px;
+    height: 343px;
+    left: auto;
+    padding-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-cover {
+    background: #1D3557;
+    padding: 3px 12px 5px 12px; 
+    margin: 122px 260px 187px 259px;
+    margin-bottom: 11px;
+    border-radius: 10px; 
+    color: #ffffff;
+    width: 201px;
+    height: 34px;
+    left: 259px;
+    top: 122px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+#description-cover {
+    background: #457B9D;
+    padding: 5px 29px 8px 28px;
+    color: #ffffff;
+    width: 412px;
+    height: 52px;
+    left: calc(50% - 412px/2);
+    top: calc(50% - 52px/2 + 26.5px);
+
+    background: #457B9D;
+    border-radius: 10px;
+
+    width: 355px;
+    height: 39px;
+    left: 182px;
+    top: 177px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+
+    
+
+}
+
+
+#section-1 {
+    width: 900px;
+    height: 400px;
+    padding-top: 10px;
+    background-color: #F1FAEE;
+
+}
+
+.img {
+    justify-content: center;
+    width: 103.97px;
+    left: auto;
+    right: auto;
+    border-radius: 50%;
+    margin-top: 54px;
+    margin-right:10px;
+
+}
+
+#first {
+    width: 100px;
+    height: 99.34px;
+    left: 83px;
+    right: 113px;
+    top: 114px;
+    
+}
+
+#center {
+    width: 103.97px;
+    height: 103.97px;
+    left: 314px;
+    top: 113px;
+    right: 131px;
+    margin-left:131px;
+    
+    
+}
+
+#third {
+    width: 100.66px;
+    height: 100.66px;
+    left: 536.34px;
+    top: 113px;
+    margin-left:118.6px;
+}
+
+.section-header {
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+
+
+}
+
+
+#header4-1 {
+    margin-left: 100px;
+    width: 183px;
+    height: 32px;
+    left: 41px;
+    top: 236px;
+    
+    color:#1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+#header4-2 {
+    margin-left: 360px;
+    margin-top: -50px;
+    width: 183px;
+    height: 32px;
+    left: 41px;
+    top: 236px;
+
+    
+    color:#1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+#header4-3 {
+    margin-top: -55px;
+    margin-left: 577px;
+    width: 197px;
+    height: 38px;
+    left: 488px;
+    top: 15px;
+    
+    color:#1D3557;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.captions {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+#caption-1 {
+    margin-left: 100px;
+    margin-top: -80px;
+    width: 198px;
+    height: 55px;
+    left: 34px;
+    top: 285px;
+
+}
+
+#caption-2 {
+    margin-left: 350px;
+    margin-top: -70px;
+    width: 198px;
+    height: 54px;
+    left: 265px;
+    top: 286px;
+}
+
+#caption-3 {
+    margin-left: 575px;
+    margin-top: -65px;
+    width: 198px;
+    height: 54px;
+    left: 488px;
+    top: 286px;
+}
+
+
+
+#card {
+    margin-left: 250px;
+    width: 400px;
+    height: 294px;
+    left: 160px;
+    top: 50px;
+
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+#per {
+    margin: -1500px 170px -30px -20px;
+    width: 100px;
+    width: 180px;
+    height: 248.67px;
+    left: 173px;
+
+    background: url(per.jpg);
+    border-radius: 10px;
+}
+
+
+#card-header {
+    margin: 50px -189px 213px 50px;
+    padding-top: 49px;
+    width: 500px;
+    height: 32px;
+    left: 349px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+#quote {
+    margin: -150px 11px 200px 200px;
+    margin-top: -200px;
+    width: 189px;
+    height: 71px;
+    left: 360px;
+    top: 145px;
+
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+#name {
+    margin-left: 200px;
+    margin-top: -170px;
+    width: 189px;
+    height: 18px;
+    left: 358px;
+    top: 242px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
